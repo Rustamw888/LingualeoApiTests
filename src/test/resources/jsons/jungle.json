@@ -1,0 +1,27 @@
+{
+  "apiVersion": "1.0.0",
+  "categoryName": null,
+  "data": [
+    {
+      "count": 34608,
+      "description": null,
+      "hasSubLevel": 0,
+      "id": 61,
+      "key": "books",
+      "name": "Книги",
+      "pic": "https://contentcdn.lingualeo.com/uploads/banners/image/pic-lib-1593012683.jpg",
+      "url": "/ru/jungle/books/books"
+    },
+    {
+      "count": 178100,
+      "description": null,
+      "hasSubLevel": 0,
+      "id": 62,
+      "key": "short_stories_and_articles",
+      "name": "Рассказы и статьи",
+      "pic": "https://contentcdn.lingualeo.com/uploads/banners/image/pic-lib-1593012732.jpg",
+      "url": "/ru/jungle/books/short_stories_and_articles"
+    }
+  ],
+  "status": "ok"
+}
