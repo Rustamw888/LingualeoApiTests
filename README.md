@@ -43,7 +43,7 @@
 - Активация промокода с недопустимым значением
 
 ## :rocket: Сборка в Jenkins
-### <a target="_blank" href="https://jenkins.autotests.cloud/job/AUTO-Rustam/">Сборка в Jenkins</a>
+### <a target="_blank" href="https://jenkins.autotests.cloud/job/LingualeoApiTestsRustam/">Сборка в Jenkins</a>
 <p align="center">
 <img title="Jenkins Dashboard" src="images/screenshots/jenkins_dashboard.png">
 </p>
@@ -51,9 +51,7 @@
 ### Параметры сборки в Jenkins:
 Сборка в Jenkins
 
-- browser (браузер, по умолчанию chrome)
-- version (версия браузера, по умолчанию 100.0)
-- size (размер окна браузера, по умолчанию 1920x1080)
+- task (выбор таски)
 - threads (количество потоков)
 
 ## :rocket: Запуск из терминала
@@ -68,7 +66,7 @@ gradle clean activation - запуск блока активации
 Удаленный запуск:
 ```
 clean
-"${TASK}"
+${TASK}
 ```
 
 ## :rocket: Allure отчет
@@ -80,8 +78,6 @@ clean
 - ### Страница с проведенными тестами (suites)
 <p align="center">
 <img title="Allure Test Page" src="images/screenshots/allure_suites_1.png">
-<img title="Allure Test Page" src="images/screenshots/allure_suites_2.png">
-<img title="Allure Test Page" src="images/screenshots/allure_suites_3.png">
 </p>
 
 - ### Страница с пакетами тестов
