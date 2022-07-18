@@ -1,6 +1,8 @@
 package tests;
 
 import com.github.javafaker.Faker;
+import io.qameta.allure.AllureId;
+import io.qameta.allure.Owner;
 import models.activationModel.RequestActivation;
 import network.EndpointsData;
 import org.junit.jupiter.api.DisplayName;
@@ -33,5 +35,13 @@ public class PromoActivationTests extends TestBase {
                 .spec(response200)
                 .body("data.status", is("incorrect"))
                 .body("status", is("ok"));
+    }
+
+    @Test
+    @AllureId("11377")
+    @DisplayName("manual test with postman 2")
+    @Owner("allure8")
+    void test() {
+        System.out.println("test");
     }
 }
