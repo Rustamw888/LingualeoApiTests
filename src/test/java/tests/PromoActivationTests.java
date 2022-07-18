@@ -36,12 +36,4 @@ public class PromoActivationTests extends TestBase {
                 .body("data.status", is("incorrect"))
                 .body("status", is("ok"));
     }
-
-    @Test
-    @AllureId("11377")
-    @DisplayName("manual test with postman 2")
-    @Owner("allure8")
-    void test() {
-        System.out.println("test");
-    }
 }
