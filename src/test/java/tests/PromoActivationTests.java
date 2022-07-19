@@ -18,6 +18,7 @@ import static specs.Specs.response200;
 public class PromoActivationTests extends TestBase {
 
     @Test
+    @AllureId("11380")
     @DisplayName("Activating a promo code with a non-valid value")
     void setInvalidPromoTest() {
         Faker faker = new Faker();

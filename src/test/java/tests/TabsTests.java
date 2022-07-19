@@ -1,5 +1,6 @@
 package tests;
 
+import io.qameta.allure.AllureId;
 import models.grammarCourcesModel.IDsItem;
 import models.grammarCourcesModel.RequestBody;
 import models.grammarCourcesModel.ResponseGrammarCourses;
@@ -26,6 +27,7 @@ import static specs.Specs.response200;
 public class TabsTests extends TestBase {
 
     @Test
+    @AllureId("11388")
     @DisplayName("Thematic checking using junit")
     void thematicTest() {
         ResponseThematicCourses response = given()
@@ -40,6 +42,7 @@ public class TabsTests extends TestBase {
     }
 
     @Test
+    @AllureId("11383")
     @DisplayName("Thematic using regular expressions")
     void thematicWithExpressionsTest() {
         given()
@@ -52,6 +55,7 @@ public class TabsTests extends TestBase {
     }
 
     @Test
+    @AllureId("11382")
     @DisplayName("Grammar checking using junit")
     void grammarTest() {
         List<IDsItem> list = new ArrayList<>();
@@ -75,6 +79,7 @@ public class TabsTests extends TestBase {
     }
 
     @Test
+    @AllureId("11382")
     @DisplayName("Grammar using regular expressions")
     void grammarTestWithExpressionsTest() {
         List<IDsItem> list = new ArrayList<>();
@@ -94,6 +99,7 @@ public class TabsTests extends TestBase {
     }
 
     @Test
+    @AllureId("11387")
     @DisplayName("Key values checking")
     void jungleTest() {
         ResponseJungle response = given()
@@ -107,6 +113,7 @@ public class TabsTests extends TestBase {
     }
 
     @Test
+    @AllureId("11379")
     @DisplayName("Matches Json schema")
     void matchesJsonSchema() {
         given()

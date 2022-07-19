@@ -1,6 +1,7 @@
 package tests;
 
 import com.github.javafaker.Faker;
+import io.qameta.allure.AllureId;
 import models.searchModel.IDsItemSearch;
 import models.searchModel.RequestSearchContent;
 import models.searchModel.ResponseSearchModel;
@@ -23,6 +24,7 @@ import static specs.Specs.response200;
 public class SearchTests extends TestBase {
 
     @Test
+    @AllureId("11381")
     @DisplayName("Checking the output of the music block")
     void musicVideoTest() {
         List<IDsItemSearch> list = new ArrayList<>();
@@ -47,6 +49,7 @@ public class SearchTests extends TestBase {
     }
 
     @Test
+    @AllureId("11384")
     @DisplayName("Checking the output of the music block with invalid values")
     void negativeMusicVideoTest() {
         List<IDsItemSearch> list = new ArrayList<>();
@@ -71,6 +74,7 @@ public class SearchTests extends TestBase {
     }
 
     @Test
+    @AllureId("11385")
     @DisplayName("Checking the result matches with Json schema")
     void musicVideoMatchesJsonSchemaTest() {
         List<IDsItemSearch> list = new ArrayList<>();
