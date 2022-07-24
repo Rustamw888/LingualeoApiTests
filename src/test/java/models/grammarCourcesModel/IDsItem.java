@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class IDsItem{
+public class IDsItem {
 	private String G;
 	private String Y;
 }

@@ -1,4 +1,4 @@
-package network;
+package enums;
 
 public enum SideEndpointsData {
 

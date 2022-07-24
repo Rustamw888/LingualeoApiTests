@@ -30,7 +30,7 @@
 <img width="6%" title="Telegram" src="images/logo/Telegram.svg">
 </p>
 
-## :rocket: Реализованные проверки это смоук тесты
+## :rocket: Реализованны следующие проверки
 ![This is an image](https://i.imgur.com/Dd62Cq5.png)
 - Проверка тематического блока с использованием junit 
 - Проверка тематического блока с помощью регулярных выражений 
@@ -75,43 +75,43 @@ ${TASK}
 <img title="Allure Overview Dashboard" src="images/screenshots/report_main_page.png">
 </p>
 
-- ### Страница с проведенными тестами (suites)
+- ### Проведенные тесты (suites)
 <p align="center">
 <img title="Allure Test Page" src="images/screenshots/allure_suites_1.png">
 </p>
 
-- ### Страница с пакетами тестов
+- ### Пакеты с тестами
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/screenshots/allure_packages.png">
 </p>
 
-- ### Страница с графиком прохождения тестов
+- ### График прохождения тестов
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/screenshots/allure_schedule.png">
 </p>
 
 ## :rocket: Интеграция с Allure TestOps
-- ### Экран с результатами запуска тестов
+- ### Результаты запуска тестов
 <p align="center">
 <img title="TestOps Launch Page" src="images/screenshots/test_results_ATO.png">
 </p>
 
-- ### Экран с launches после интеграции с IDE + график
+- ### Launches после интеграции с IDE + график
 <p align="center">
 <img title="TestOps Launch Page" src="images/screenshots/launches_ATO.png">
 </p>
 
-- ### Экран с дашбордами и тестами в TestOps auto + manual
+- ### Дашборды с ручными и авто тестами
 <p align="center">
 <img title="TestOps Launch Page" src="images/screenshots/dashboards_ATO.png">
 </p>
 
-- ### Страница с тест кейсами в TestOps
+- ### Тест кейсы
 <p align="center">
 <img title="TestOps tests page" src="images/screenshots/test_cases_ATO.png">
 </p>
 
-- ### Страница с тест ранами в TestOps auto + manual
+- ### Запуски с ручными и авто тестами
 <p align="center">
 <img title="TestOps tests page" src="images/screenshots/test_runs_ATO.png">
 </p>

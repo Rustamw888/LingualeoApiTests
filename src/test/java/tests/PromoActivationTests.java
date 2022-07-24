@@ -2,9 +2,8 @@ package tests;
 
 import com.github.javafaker.Faker;
 import io.qameta.allure.AllureId;
-import io.qameta.allure.Owner;
 import models.activationModel.RequestActivation;
-import network.EndpointsData;
+import enums.EndpointsData;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;

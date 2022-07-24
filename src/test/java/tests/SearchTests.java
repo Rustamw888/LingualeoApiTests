@@ -5,7 +5,7 @@ import io.qameta.allure.AllureId;
 import models.searchModel.IDsItemSearch;
 import models.searchModel.RequestSearchContent;
 import models.searchModel.ResponseSearchModel;
-import network.EndpointsData;
+import enums.EndpointsData;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;

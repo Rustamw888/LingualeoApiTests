@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class RequestSearchContent{
+public class RequestSearchContent {
 	private String categoryType;
 	private String search;
 	private String apiVersion;
